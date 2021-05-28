@@ -1,32 +1,57 @@
+   <!-- 
+    マンガが好きなので、マンガっぽいをコンセプトにしました。
+    マンガっぽいフォントを選んでみたり、イラストレーターに描いてもらったマンガっぽいイラストを使ったり。
+    コンセプトを決めて作るのも一つの手です。
+    また、ソースコードはなるべく他人から見てもわかりやすく書くのがコツです。
+    あと、下の画像ファイルはすべて素材サイトからの直リンクではなく、すこし特殊な方法であげています。来週には学校か別のサーバーに写します。
+  -->
+
+
 <html>
 <head>
   <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    
+     
     <title>プロフィール</title>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=M+PLUS+Rounded+1c:wght@800&family=Sawarabi+Gothic&family=Yusei+Magic&display=swap" rel="stylesheet">  
+    <!-- /google fonts -->
+
     <style>
-    body { background: rgb(246,241,78);
-          background: linear-gradient(0deg, rgba(246,241,78,1) 0%, rgba(255,145,0,1) 100%);;
-           color :White;
+      body {background-color: white;
+            font-family: 'Yusei Magic', sans-serif
+            }
+      ul   {font-size: 24px;
+       
+          }      
+      h1 {text-align: center;
+          font-size: 90px;
           }
-    h1 {text-align: center;}
-    h2 {text-align: center;}
-    div {text-align: center;}
-    th {
-        width:35%;
-        text-align: center;}
-    td{
-        width:65%;}
+      h2 {text-align: center;
+          font-size: 60px;}
+      div {text-align: center;}
+      th {font-family: 'Yusei Magic', sans-serif;
+          font-size: 30px;
+          width:35%;
+          text-align: center;}
+      td{font-family: 'Yusei Magic', sans-serif;
+          font-size: 30px;
+          width:65%;}
+      footer{
+        color:white;
+        font-size: 24px;
+        background-color: gray;
+        text-align: center;
+      }      
     </style>
 </head>
 <body>
-  <!-- 
-    ソースコードはなるべく他人から見てもわかりやすく書くのがコツです。
-    また、下の画像ファイルはすべて素材サイトからの直リンクではなく、すこし特殊な方法であげています。来週には学校か別のサーバーに写します。
-  -->
+  
   <!-- ナビゲーションバー -->
-  <nav class="navbar navbar-expand-md  navbar-light bg-light">
+  <nav class="navbar navbar-expand-md navbar-light" style="background-color:orange;">
     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#bs-navi" aria-controls="bs-navi" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -36,24 +61,24 @@
         <li class="nav-item"><a class="nav-link" href="#table">プロフィール</a></li>
         <li class="nav-item"><a class="nav-link" href="#like">好きなものページ</a></li>
         <li class="nav-item"><a class="nav-link" href="comic.html">好きな漫画</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">好きな写真</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">好きなお笑い</a></li>
+        <li class="nav-item"><a class="nav-link" href="photo.html">好きな写真</a></li>
+        <li class="nav-item"><a class="nav-link" href="comedy.html">好きなお笑い</a></li>
       </ul>
     </div>
-  </nav>
+    </nav>
 <!-- /ナビゲーションバー -->
 
 
 
 
-
+<div class = "container">
 <br>
+<h1 id= "table">プロフィール</h1>
 <br>
-<h1 id= "table">プロフィール（製作途中）</h1>
 <br>
 <br>
 <div>
-<img src="https://assets.st-note.com/production/uploads/images/7000283/profile_128c25f1b466635357cc7aed50e42886.jpg?width=600&crop=1:1,smart" >
+<img class="img-responsive center-block" src="https://assets.st-note.com/production/uploads/images/7000283/profile_128c25f1b466635357cc7aed50e42886.jpg?width=600&crop=1:1,smart" >
 </div>
 <br>
 <br>
@@ -101,27 +126,32 @@
     <div class="col-sm-4">
       <h2>漫画</h2>
       <br>
-      <a href= "comic.html" alt="画像にリンク"> <img src="https://assets.st-note.com/img/1620363914119-9pL3NZXd8K.png"> </a>
-      
+      <a href= "comic.html" alt="画像にリンク"> <img class="img-responsive center-block" src="https://assets.st-note.com/img/1620363914119-9pL3NZXd8K.png"> </a>
     </div>
+    
     <div class="col-sm-4">
       <h2>写真</h2>
       <br>
-      <img src="https://assets.st-note.com/img/1620364281938-rRdzI3cdXH.png" >
+      <a href= "photo.html" alt="画像にリンク"><img class="img-responsive center-block" src="https://assets.st-note.com/img/1620364281938-rRdzI3cdXH.png" > </a>
     </div>
     <div class="col-sm-4">
       <h2>お笑い</h2>
       <br>
-      <img src="https://assets.st-note.com/img/1620365281328-6xoxWNp6Bm.png" width="256" height="256" >
+      <a href= "comedy.html" alt="画像にリンク"><img class="img-responsive center-block" src="https://assets.st-note.com/img/1620365281328-6xoxWNp6Bm.png" width="256" height="256" ></a>
     </div>
   </div>
+    <br>
+    <br>
 
 
+</div>
 
-
-
-
+<footer>
+  <br>
+  <p>Copyright © 2021 Hiroaki Ishii </p>
+  <br>
+</footer>
 
 <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-</html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>   
+</html>        
