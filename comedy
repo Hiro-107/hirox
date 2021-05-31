@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>comedy</title>
+ <!-- google fonts -->
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=M+PLUS+Rounded+1c:wght@800&family=Sawarabi+Gothic&family=Yusei+Magic&display=swap" rel="stylesheet">  
+ <!-- /google fonts -->
+
+<style>
+body{
+  text-align: center;
+}
+h1{
+  color:green;
+  font-size: 90px;
+}
+h2{
+  color:green;
+  font-size: 45px;
+}
+.owarai{
+  font-size: 28px;
+  border: 3px solid orange;
+}
+ul{
+  font-size: 30px;
+}
+.footer{
+  background-color: gray;
+  font-size: 30px;
+}
+</style>
+
+  </head>
+
+<body>
+
+<div class="container">
+
+
+<h1>お笑い</h1>
+
+<img class="img-responsive center-block" src="https://assets.st-note.com/img/1620365281328-6xoxWNp6Bm.png">
+<br>
+<br>
+<h2>お笑いについて</h2>
+<br>
+<p class="owarai">
+  お笑いが好きで、お笑い番組やバラエティー番組などを毎日見ています。友人に吉本の芸人がいるのですが、自分のお笑い好きが高じて、その友人にお笑いを教わりながら一緒にネタを作って
+  公園で一緒に漫才をして、それを動画に撮ったりしています。
+  <br>
+  <br>
+  そうやっていろいろお笑い力を鍛えつつ、ゆくゆくは相方が見つかればM-1などに出場することも考えています。
+  <br>
+  <br>
+  もともとは、生徒の前だと緊張して冗談とかを言えない状態は嫌だなぁと思ったので、それで芸人にいろいろ教わりながらチャレンジしているというのもあるので、夏か秋ぐらいまでには楽しく授業をやれるようがんばります。。
+
+</p>
+<br>
+<br>
+<br>
+
+  <h2>好きな芸人（MC）</h2>
+  <ul class="list-group">
+    <li class="list-group-item">上田晋也</li>
+    <li class="list-group-item">有吉弘行</li>
+    <li class="list-group-item">マツコデラックス</li>
+  </ul>
+<br>
+  <h2>好きな漫才師</h2>
+  <ul class="list-group">
+    <li class="list-group-item">南海キャンディーズ</li>
+    <li class="list-group-item">ゆにばーす</li>
+    <li class="list-group-item">馬鹿よ貴方は</li>
+  </ul>
+<br>
+  <h2>好きなお笑い番組</h2>
+  <ul class="list-group">
+      <li class="list-group-item">太田上田</li>
+      <li class="list-group-item">有吉の壁</li>
+      <li class="list-group-item">ゴッドタン</li>
+  </ul>
+<br>
+</div>
+
+  <div class ="footer">
+    <br>
+    <p>Copyright © 2021 Hiroaki Ishii </p>
+    <br>
+  </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
